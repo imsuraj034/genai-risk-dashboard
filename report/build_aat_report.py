@@ -36,7 +36,7 @@ CROP = FIG / "cropped"
 
 TITLE = "Security and Privacy Risks of Generative AI"
 STUDENT = "SURAJ T (1DS23AI058)"
-GITHUB_URL = "https://github.com/<github-username>/genai-risk-dashboard"
+GITHUB_URL = "https://github.com/imsuraj034/genai-risk-dashboard"
 
 PAGES = {}
 if "--pages" in sys.argv:
