@@ -1,0 +1,77 @@
+{
+  "n_samples": 114,
+  "per_category": {
+    "LLM01": {
+      "name": "Prompt Injection / Jailbreak",
+      "precision": 0.9,
+      "recall": 0.947,
+      "f1": 0.923,
+      "support": 19
+    },
+    "LLM02": {
+      "name": "Sensitive Information Disclosure",
+      "precision": 1.0,
+      "recall": 0.944,
+      "f1": 0.971,
+      "support": 18
+    },
+    "LLM05": {
+      "name": "Improper Output Handling",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 11
+    },
+    "LLM06": {
+      "name": "Excessive Agency",
+      "precision": 0.923,
+      "recall": 1.0,
+      "f1": 0.96,
+      "support": 12
+    },
+    "LLM07": {
+      "name": "System Prompt Leakage",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10
+    },
+    "LLM09": {
+      "name": "Misinformation / Overreliance",
+      "precision": 1.0,
+      "recall": 0.778,
+      "f1": 0.875,
+      "support": 9
+    },
+    "LLM10": {
+      "name": "Unbounded Consumption",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 9
+    }
+  },
+  "micro": {
+    "precision": 0.966,
+    "recall": 0.955,
+    "f1": 0.96
+  },
+  "macro": {
+    "precision": 0.975,
+    "recall": 0.953,
+    "f1": 0.961
+  },
+  "exact_match_accuracy": 0.939,
+  "binary": {
+    "accuracy": 0.947,
+    "precision": 0.975,
+    "recall": 0.951,
+    "f1": 0.963,
+    "confusion_matrix": {
+      "TN": 31,
+      "FP": 2,
+      "FN": 4,
+      "TP": 77
+    }
+  }
+}
